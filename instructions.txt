@@ -1,0 +1,13 @@
+1. Create an environment
+   python -m venv env or python3 -m venv env
+
+2. Activate the environment
+   env\Scripts\activate (for windows)
+   source env/bin/activate (for linux)
+
+3. Install dependencies
+   pip install -r requirement.txt
+   pip install tensorflow==2.10.0 tensorflow-io-gcs-filesystem (optional)
+
+4. Run the app
+   Streamlit run intrusion_detection.py
